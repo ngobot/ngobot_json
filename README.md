@@ -1,2 +1,2 @@
 # ngobot_json
-The repository contains script to formats your method's response in a correct JSON format. Well suitable to backend applications with REST API building concept in mind.
+The repository contain a script to format your method's response in a correct JSON format using the standard HTTP response codes. Well suitable to backend applications with REST API building concept in mind.
