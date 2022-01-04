@@ -1,13 +1,13 @@
-# NGOBOT-JSON - SIMPLE JSON RESPONSE FORMAT IN PYTHON USING THE STANDARD HTTP CODES PRINCIPLES
+# SIMPLE PYTHON JSON RESPONSE FORMAT 
 The repository contain a script to format your function's response in a correct JSON format using the standard HTTP response codes. Well suitable to backend applications with REST API building concept in mind.
 
-# Install the ngobot-json package**
+**Install the ngobot-json package**
 
-**pip install ngobot-json**
+`pip install ngobot-json`
 
-# import the ngobot-json package
+**import the ngobot-json package**
 
-**from ngobot_json.response import Response**
+`from ngobot_json.response import Response` 
 
 instantiate it for a task as shown below
 
@@ -55,6 +55,7 @@ _Output:_
 }
 }
 `
+
 **2. Error Response**
 
 The error response follows the same pattern of the success modify response, but has a different keyword argument "error" to signify the error response:
