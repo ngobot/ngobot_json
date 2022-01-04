@@ -37,7 +37,7 @@ _Output:_
 }
 }`
 
-You can modify the json success response format by passing two arguments: (1) the data to return as response and (2) the keyword indicator "success" to signify success response.
+You can modify the json success response format by passing two arguments: (1) the data to return as response and (2) the keyword indicator "success" to activate success response format.
 
 e.g.
 
@@ -62,7 +62,7 @@ _Output:_
 
 **2. Error Response**
 
-The error response follows the same pattern of the success modify response, but has a different keyword argument "error" to signify the error response:
+The error response follows the same pattern of the success modify response, but has a different keyword argument "error" to activate the error response format:
 
 e.g.
 
