@@ -22,7 +22,9 @@ e.g.
 `response = Response()
 print(response.Success())
 `
+
 _Output:_
+
 
 `{
 "status":200,
