@@ -39,25 +39,43 @@ _Output:_
 
 You can modify the json success response format by passing two arguments: (1) the data to return as response and (2) the keyword indicator "success" to activate success response format.
 
-e.g.
+e.g. User Account Created.
 
 `task = "User Account successfully created"
 
 response = Response(task, "success")
 
-print(response.Success())`
+print(response.Created())`
 
 _Output:_
 
 `{
-"status":200,
-"message":"Successful",
+"status":201,
+"message":"Created Successfully",
 "data":{
 "status":200,
 "message":"ok",
 "reason":"User Account successfully created"
 }
 }
+`
+
+
+e.g. 2. Process completed successfully
+
+
+`task = "The Process is successfully completed"
+
+response = Response(task, "success")
+
+print(response.Success())`
+
+
+
+Output:
+
+
+`{"status": 200, "message": "Successful", "data": {"status": 200, "message": "ok", "reason": "The Process is successfully completed"}}
 `
 
 **2. Error Response**
@@ -85,7 +103,38 @@ _Output:_
 }`
 
 
-more updates are coming soon.
+
+**3. Adding External json return from another function or database.**
+
+
+e.g. 
+
+
+`task = {
+"status":201,
+"message":"Created Successfully",
+"data":{
+"status":200,
+"message":"ok",
+"reason":"User Account successfully created"
+}
+}
+
+response = Response(task, "data")
+
+print(response.Success())`
+
+
+Output:
+
+`{"status": 200, "message": "Successful", "data": {"status": 201, "message": "Created Successfully", "data": {"status": 200, "message": "ok", "reason": "User Account successfully created"}}}
+`
+
+
+
+**4. List of All the supported HTTP codes functions to call.**
+
+comming soon.
 
 
 
