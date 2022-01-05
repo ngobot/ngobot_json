@@ -17,7 +17,7 @@ instantiate it for a task as shown below
 
 you can simply return json successful response format in this way.
 
-e.g.
+_e.g._
 
 `response = Response()
 
@@ -39,7 +39,7 @@ _Output:_
 
 You can modify the json success response format by passing two arguments: (1) the data to return as response and (2) the keyword indicator "success" to activate success response format.
 
-e.g. User Account Created.
+_e.g. User Account Created._
 
 `task = "User Account successfully created"
 
@@ -61,7 +61,7 @@ _Output:_
 `
 
 
-e.g. 2. Process completed successfully
+_e.g. Process completed successfully_
 
 
 `task = "The Process is successfully completed"
@@ -82,7 +82,7 @@ Output:
 
 The error response follows the same pattern of the success modify response, but has a different keyword argument "error" to activate the error response format:
 
-e.g.
+_e.g._
 
 `task = "Invalid username and password"
 
@@ -107,7 +107,7 @@ _Output:_
 **3. Adding External json return from another function or database.**
 note that in this section we use keyword "data" to activate the json format with external json file.
 
-e.g. 
+_e.g._ 
 
 
 `task = {
