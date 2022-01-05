@@ -105,7 +105,7 @@ _Output:_
 
 
 **3. Adding External json return from another function or database.**
-
+note that in this section we use keyword "data" to activate the json format with external json file.
 
 e.g. 
 
