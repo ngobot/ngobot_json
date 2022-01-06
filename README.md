@@ -1,5 +1,5 @@
-# SIMPLE PYTHON JSON RESPONSE FORMAT 
-The repository contain a script to format your function's response in a correct JSON format using the standard HTTP response codes. Well suitable to backend applications with REST API building concept in mind.
+# SIMPLE PYTHON JSON FORMAT 
+The repository contain a script to format your python response in a correct JSON format using the standard HTTP response codes. Well suitable to backend applications with REST API building concept in mind.
 
 **Install the ngobot-json package**
 
