@@ -41,15 +41,23 @@ You can modify the json success response format by passing two arguments: (1) th
 
 _e.g. User Account Created._
 
-`task = "User Account successfully created"
+`
+
+task = "User Account successfully created"
 
 response = Response(task, "success")
 
-print(response.Created())`
+print(response.Created())
+
+
+`
 
 _Output:_
 
-`{
+`
+
+
+{
 "status":201,
 "message":"Created Successfully",
 "data":{
@@ -58,6 +66,8 @@ _Output:_
 "reason":"User Account successfully created"
 }
 }
+
+
 `
 
 
