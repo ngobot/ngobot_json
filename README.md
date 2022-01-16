@@ -7,7 +7,7 @@ The repository contain a script to format your python response in a correct JSON
 
 **import the ngobot-json package**
 
-`from ngobot_json.pyresponse import Response`
+`from ngobot_json.pyresponse import JsonResponse`
 
 **1. Success Response**
 
