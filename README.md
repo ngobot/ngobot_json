@@ -15,7 +15,7 @@ you can simply return json successful response format in this way.
 
 _e.g._
 
-`response = Response()
+`response = JsonResponse()
 
 print(response.Success())
 `
@@ -41,7 +41,7 @@ _e.g. User Account Created._
 
 task = "User Account successfully created"
 
-response = Response(task, "success")
+response = JsonResponse(task, "success")
 
 print(response.Created())
 
@@ -65,7 +65,7 @@ _e.g. Process completed successfully_
 
 `task = "The Process is successfully completed"
 
-response = Response(task, "success")
+response = JsonResponse(task, "success")
 
 print(response.Success())`
 
@@ -85,7 +85,7 @@ _e.g._
 
 `task = "Invalid username and password"
 
-response = Response(task, "error")
+response = JsonResponse(task, "error")
 
 print(response.Unauthorized())`
 
@@ -119,7 +119,7 @@ _e.g._
 }
 }
 
-response = Response(task, "data")
+response = JsonResponse(task, "data")
 
 print(response.Success())`
 
