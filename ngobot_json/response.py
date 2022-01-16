@@ -597,4 +597,3 @@ class Response:
         except Exception as e:
             data = self.set_data(500, e)
             return data
-
