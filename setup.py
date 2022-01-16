@@ -4,8 +4,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="ngobot_json",
-    version="1.1.1",
+    name="ngobot-json",
+    version="1.1.2",
     author="Nseobong Gregory Obot",
     author_email="obot.greg@icloud.com",
     description="HTTP Response code Python-format.",
@@ -20,7 +20,7 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    package_dir={"": "ngobot_json"},
-    packages=setuptools.find_packages(where="ngobot_json"),
+    package_dir={"": "ngobot-json"},
+    packages=setuptools.find_packages(where="ngobot-json"),
     python_requires=">=3.6",
 )

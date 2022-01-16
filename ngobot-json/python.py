@@ -1,7 +1,7 @@
 import json
 
 
-class Response:
+class HTTPResponse:
 
     data = "Successful"
     category = "success"
