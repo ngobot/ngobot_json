@@ -7,11 +7,7 @@ The repository contain a script to format your python response in a correct JSON
 
 **import the ngobot-json package**
 
-`from ngobot_json.response import Response` 
-
-instantiate it for a task as shown below
-
-`response = Response()`
+`from ngobot_json.pyresponse import Response`
 
 **1. Success Response**
 
@@ -49,14 +45,11 @@ response = Response(task, "success")
 
 print(response.Created())
 
-
 `
 
 _Output:_
 
 `
-
-
 {
 "status":201,
 "message":"Created Successfully",
@@ -66,11 +59,7 @@ _Output:_
 "reason":"User Account successfully created"
 }
 }
-
-
 `
-
-
 _e.g. Process completed successfully_
 
 

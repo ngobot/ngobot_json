@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="ngobot_json",
-    version="1.1.3",
+    version="1.1.4",
     author="Nseobong Gregory Obot",
     author_email="obot.greg@icloud.com",
     description="HTTP Response code Python-format.",
