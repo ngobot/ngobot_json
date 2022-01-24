@@ -7,7 +7,7 @@ class JsonResponse:
     category = "success"
 
     def __init__(self, data=data, category=category):
-        self.data = data
+        self.data = str(data)
         self.category = category
 
     def set_data(self, status, message):
